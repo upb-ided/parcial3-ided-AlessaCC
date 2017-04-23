@@ -1,0 +1,20 @@
+Punto 1(AddMatrix)
+* OK
+Total: 1.0 / 1.0
+
+Punto 2(MultiplyMatrixByScalar)
+* OK
+* Hay un error de compilación a la hora de inicializar la matriz resultado, pero es correcta la aproximación.
+Total: 1.0 / 1.0
+
+Punto 3(MultiplyMatrices)
+* Es incorrecta la inicialización de la matriz 'result'. Inicia con la misma dimensión de 'matrixB'.
+* Es incorrecto el orden de iteración, por lo que, al someter a pruebas, se obtiene un IndexOutOfBoundsException (consulta qué es :) ). Sin embargo el acercamiento es correcto.
+* La instrucción que aplica la operación es correcta.
+Total: 1.2 / 2.0
+
+Punto 4(MixMatrix)
+* Valida que las matrices sean operables, pero nada más.
+Total: 0.2 / 1.0
+
+Total evaluación: 3.4 / 5.0
